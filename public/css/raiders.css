@@ -1,0 +1,16 @@
+.district {float: left; margin: -15px 0px 30px 0px;border-bottom: 2px dashed #999;padding-bottom: 20px;}
+.district h3{margin: 15px 0px;border-left: 3px solid #9384d5;padding-left: 5px;}
+.district ul{    margin-right: -42px}
+.district ul li{float: left;margin:10px 32px 10px 0px;}
+.district ul li .img {display: block;border: 5px solid #DEDEDE;}
+
+.district ul li .statistical{text-align: center;margin-top: 10px;}
+.district ul li .statistical span{color: #f47400;padding: 0px 1px;}
+.district ul li .operation{text-align: center;margin: 10px 0px;}
+.district ul li .operation a{
+    width: 55px;display: inline-block;height: 26px;line-height: 26px;margin: 0px 2px;color: #fff;
+    background: #007ed9;border-radius: 5px;text-align: center;cursor: pointer;
+}
+.district ul li .operation a:hover{text-decoration:none;}
+.district ul li .operation .browse{background: #007ed9;}
+.district ul li .operation .down{background: #F45551;}

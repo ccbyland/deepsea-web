@@ -1,0 +1,76 @@
+<link href="css/travel.css" rel="stylesheet" type="text/css" media="all" />        
+
+<!-- banner start -->
+<div class="banner banner5">
+</div>
+<!-- banner end -->
+
+<div id="loading" style="text-align: center;margin: 30px;">
+    <img src="/images/loading.gif" width="400px" height="300px"/>
+</div>
+
+<section>
+    <div class="main-content">
+        <div class="wrap-container">
+            <div class="wrap-content">
+                <div class="col-1-8">
+                    <div class="tn-list" id="_j_tn_content">
+                        <div ng-repeat="travel in travelList" class="tn-item clearfix">
+                            <div class="tn-image">
+                                <a href="/i/3442636.html" target="_blank">
+                                    <img src="{{travel.preview_img_src}}" height="150" width="220">
+                                    <i class=""></i>
+                                </a>
+                            </div>
+                            <div class="tn-wrapper">
+                                <dl>
+                                    <dt>
+                                        <a href="/i/3442636.html" target="_blank">{{travel.title}}</a>
+                                    </dt>
+                                    <dd>
+                                        <a href="/i/3442636.html" target="_blank">{{travel.short_content}}</a>
+                                    </dd>
+                                </dl>
+                                <div class="tn-extra">
+                                    <span class="tn-ding">
+                                        <a class="btn-ding" href="javascript:;" data-japp="articleding" data-iid="3442636" data-vote="330" rel="nofollow"></a>
+                                        <em id="topvote3442636">{{travel.praise_num}}</em>
+                                    </span>
+                                    <span class="tn-place"><i></i><a href="/travel-scenic-spot/mafengwo/10195.html" target="_blank" rel="nofollow">{{travel.place}}</a></span>
+                                    <span class="tn-user">
+                                        <a href="/u/10317092.html" target="_blank" rel="nofollow">
+                                            <img alt="毛毛熊" src="http://file27.mafengwo.net/M00/8A/02/wKgB6lSqJ2OAfPfHAAGGXnJXID036.head.w16.jpeg">{{travel.author}}
+                                        </a>
+                                    </span>
+                                    <span class="tn-nums"><i></i>{{travel.browse_num}}/{{travel.comment_num}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-4">
+                    <div id="sidebar" class="wrap-col">
+                        <div class="wrap-sidebar">
+                            <div class="widget">
+                                <div class="widget-box wid-tags hide">
+                                    <div class="widget-title">
+                                        <h5>标签</h5>
+                                    </div>
+                                    <div class="widget-content">
+                                        <a href="#">夏威夷</a>
+                                        <a href="#">亚马逊热带雨林</a>
+                                        <a href="#">撒哈拉沙漠</a>
+                                        <a href="#">洱海</a>
+                                        <a href="#">通天罗</a>
+                                        <a href="#">爱琴岛</a>
+                                        <a href="#">北海道</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,32 @@
+.tn-list{margin:-15px 30px 20px 0;}
+.tn-item{overflow:hidden;padding:15px 0;}
+.tn-item:hover{background:#f8f8f8;}
+.tn-image{position:relative;float:left;overflow:hidden;width:220px;height:150px;}
+.tn-image a{background-color:transparent;color:#ff9d00;text-decoration:none;cursor:pointer;}
+.tn-wrapper{float:right;overflow:hidden;width:485px;height:150px;}
+.tn-item dl{overflow:hidden;height:117px;}
+.tn-item dt{margin-bottom:10px;height:26px;font-size:18px;line-height:26px;}
+.tn-item dd{overflow:hidden;height:60px;font-size:14px;line-height:20px;}
+.tn-item dd a:hover{color:#666;text-decoration:none;}
+.tn-item dt a{display:block;overflow:hidden;width:420px;height:26px;color:#333;text-overflow:ellipsis;white-space:nowrap;font-weight:400;}
+.tn-item:hover dt a{color:#ff9d00;text-decoration:none;}
+.tn-item dd a{color:#666;}
+.tn-extra{overflow:hidden;height:33px;line-height:33px;}
+.tn-extra span{display:inline-block;}
+.tn-extra .tn-ding{float:right;color:#ff9d00;text-align:right;font-size:14px;}
+.tn-extra .btn-ding{float:right;display:inline-block;overflow:hidden;margin-left:8px;width:38px;height:33px;background:url(/images/index-sprites3.png) no-repeat;background-position:-60px 0!important;}
+.tn-extra .tn-place{margin-right:5px;}
+.tn-extra .tn-place i{float:left;overflow:hidden;margin:8px 5px 0 0;width:14px;height:1pc;background:url(/images/index-sprites3.png) no-repeat;background-position:0 -50px!important;}
+.tn-extra .tn-user{margin-right:10px;}
+.tn-extra .tn-user img{overflow:hidden;margin-right:5px;width:1pc;height:1pc;border-radius:50%;vertical-align:-3px;}
+.tn-extra .tn-nums{color:#999;font-size:14px;}
+.tn-extra .tn-nums i{float:left;margin:10px 5px 0 0;width:18px;height:14px;background:url(/images/index-sprites3.png) no-repeat;background-position:-30px -50px!important;}
+.widget li{border-bottom:2px solid #ddd;line-height:3;}
+.widget-title{margin-bottom:10px;border-bottom:5px solid #ddd;}
+.widget-title h5{display:inline-block;margin-bottom:-4px;padding-bottom:20px;border-bottom:5px solid #fe9b13;font-size:18px;}
+.widget-box{margin-bottom:30px;padding-bottom:20px;border-radius:8px;background:#fff;}
+.widget .widget-content{padding:10px 0;}
+.widget .widget-box a,.widget .widget-content a{font-size:9pt;line-height:24px;}
+.widget .widget-box a{margin:0 5px;}
+.widget .wid-about{margin-bottom:30px;padding-top:50px;height:110px;background:url(../images/17.jpg) no-repeat center;background-size:100%;text-align:center;}
+.widget .wid-about a{color:#fff;text-transform:uppercase;font-weight:700;font-size:35px;}

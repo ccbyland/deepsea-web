@@ -1,0 +1,28 @@
+.wrap-col{margin-left:-10px;}
+article{float:left;display:inline-block;margin:0 10px;margin-bottom:30px;width:316px;border:1px solid #F4F3EE;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;background-color:#fff;}
+article:after,article:before{clear:both;display:block;visibility:hidden;width:0;height:0;content:'\0020';}
+article img{width:100%;border-top-right-radius:8px;border-top-left-radius:8px;}
+article img{transition:transform 2s;}
+article img:hover{-webkit-transform:scale(1.12);-moz-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.12);-ms-transform:scale(1.1);}
+article .art-header{margin:0 15px;color:#000;}
+article .art-header p{margin:10px 0;text-indent:24px;font-size:12px;font-family:Microsoft Yahei,sans-serif;margin:10px 0;color:#666;letter-spacing:1px;font-size:12px;line-height:1.7;}
+article .art-content p{line-height:1;margin:10px 0;color:#666;letter-spacing:1px;font-size:12px;line-height:1.7;}
+article .art-content a{margin-left:10px;color:#FE9B13;font-weight:700;}
+article .art-content a:hover{color:#000;}
+article .art-content blockquote{margin:0 50px;padding-left:20px;border-left:3px solid #1c7791;color:#666;font-style:italic;font-size:18px;}
+article .art-content h2{padding:0 20px;font-size:1.7em;line-height:2em;}
+article .art-content ol{float:left;margin:10px 50px;list-style-type:circle;text-align:justify;font-size:16px;}
+article .entry-title{position:relative;width:100%;font-size:50px;line-height:1;}
+article .entry-title h2{font-size:38px;line-height:1.2;}
+article .upload a{color:#FE9B13;font-weight:700;}
+article .upload a:hover{color:#000;}
+article .art-related{margin-top:30px;}
+article .art-related img{display:inline-block;margin:5px 0;}
+article .art-related .thetitle ul li a{position:relative;display:inline-block;margin-bottom:40px;padding:15px 45px;background:#4dbce9;color:#fff;text-align:center;font-weight:900;font-size:20px;}
+article .art-related .thetitle ul li a:before{position:absolute;top:0;left:0;border-top:27px solid transparent;border-bottom:27px solid transparent;border-left:30px solid #fff;content:"";}
+article .art-related .thetitle ul li a:after{position:absolute;top:0;right:0;border-top:27px solid transparent;border-right:30px solid #fff;border-bottom:27px solid transparent;content:"";}
+article .art-related .title{margin:5px 0;font-size:15px;}
+article .art-related .title a{color:#000;}
+article .art-related .title a:hover{text-decoration:underline;}
+article .art-content:hover{border-bottom-right-radius:8px;border-bottom-left-radius:8px;background:#F8F8F8;}
+article .art-content{padding:5px 15px;border-top:1px solid #eee;color:#555;font-size:15px;}
